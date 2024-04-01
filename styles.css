@@ -2,11 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #fcd5b6; /* Cor de pele */
+    color: #000; /* Preto */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #000;
+    color: #fcd5b6; /* Cor de pele */
     padding: 20px;
 }
 
@@ -26,20 +28,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fcd5b6; /* Cor de pele */
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    background-color: #fcd5b6; /* Cor de pele */
+}
+
+section h2 {
+    color: #000; /* Preto */
+}
+
+section p, ul {
+    color: #000; /* Preto */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #000;
+    color: #fcd5b6; /* Cor de pele */
     text-align: center;
     padding: 20px;
 }
